@@ -1,8 +1,8 @@
 # Competition: Sberbank Russian Housing Market
-Directory: SberbankRussianHousing
-WebLink: https://www.kaggle.com/c/sberbank-russian-housing-market
-Rank: 2,820 out of 3,272 teams
-Description: predict realty price fluctuations in Russia’s volatile economy
+- Sub-Directory: SberbankRussianHousing
+- WebLink: https://www.kaggle.com/c/sberbank-russian-housing-market
+- Rank: 2,820 out of 3,272 teams
+- Description: predict realty price fluctuations in Russia’s volatile economy
 
 ## Files:
 - r_wrk_RsnHousing.R - Main R script
