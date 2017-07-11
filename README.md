@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # kaggle_comp
 This directory houses my kaggle competitions / scripts I used to compete.  All scripts are created from scratch and never forked from other individuals. 
 
