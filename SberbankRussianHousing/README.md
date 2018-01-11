@@ -10,6 +10,7 @@
 - DOV_Macro.xlsx - auto-gen analysis excel sheet for analysis
 - ANALYSIS_Tableau.twb - Basic analysis with Tableau - was learning with Tableau at the time
 
-
 ## Description of Script
-My very first attempt at a kaggle competition.  I joined one month before the submission deadline, and more for a learning excercise.  I didn't get enough time to incorporate the macro level economy details and just focused on the housing features/cost.  Script was developed with R Studio, and then formatted to run in full with setting local variables.  Broken into main pieces of: load, data-clean, plotting, model/predicting.  Used linear regression and polynomial regression for the majority of submissions.
+First attempt at a kaggle competition.  I joined one month before the submission deadline, and more for a learning excercise.  Given the time constraints just focused on the housing features/cost.  Script was developed with R Studio, and then formatted to run in full with setting local variables.  Broken into main pieces of: load, data-clean, plotting, model/predicting.  Used linear regression and polynomial regression for the majority of submissions.  
+
+Learning Takeaways: 1) Post wrap-up learned to implement hiearchy leveling to obtain a better testing score. 2) Should have traded off more time on plotting/diagnostics rather than feature engineering given the time constraints.
