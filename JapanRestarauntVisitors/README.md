@@ -1,14 +1,14 @@
 ## Recruit Restaurant Visitor Forecasting
 - Sub-Directory: /JapanRestarauntVisitors/
 - WebLink: https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting
-- Current Place: 1,204 out of 1,322 (contest finalizes early Feb/2018)
-- Code/Model: Python | Multivariate ARIMA 
+- Final Place: 1,747 out of 2,158
+- Code/Model: Python | ARIMA 
 - Description: Predict the number of visitors 45 days out for several local restaraunts in Japan.
 
 ## Files:
 - helper_notebook.ipynb - Helper notebook to isolate functions, data loading, formatting, etc
-- plot_QuickAnalysis_wip.ipynb - Notebook of quick analysis and plotting
-- script_ARIMA_EXOG_wip.ipynb - Notebook for the main script / model working
+- plot_QuickAnalysis.ipynb - Notebook of quick analysis and plotting
+- script_ARIMA.ipynb - Notebook for the main script / model working
 
 ## Description of Script
-Competition is still a rough draft / work in progress.  Utilized a multivariate time series model thus far.
+Ended up using a simple ARIMA model.  The helper notebook would perform the data loading, and the ARIMA script would run the models.  Experimented a little bit with a multi-variate model and multi-STEP in the earlier stages, but scrapped later in the competition as the ARIMA was producing better scores.
