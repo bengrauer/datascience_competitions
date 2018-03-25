@@ -1,0 +1,32 @@
+12/29/2017 - simple 15day Arima forecast with float format - 0.677
+12/29/2017 - simple 15day Arima forecast with rnd (whole int) format - 0.677
+12/29/2017 - simple 15day Arima log forecast with float format - 0.770
+12/29/2017 - simple 15day Arima log forecast with rnd (whole int) format - 0.771
+All above will default down to 7,1,0 and 3,1,0 in case of error
+Also had set for 23 as then end for the model (which may have put a zero at the end)
+
+12/31/2017 - simple 20day Arima forecast with float format - 0.676
+12/31/2017 - simple 20day Arima log forecast with rnd (whole int) format - 0.775
+12/31/2017 - simple 20day Arima log forecast with rnd (whole int) format - 0.775
+
+01/01/2018 - Arima Exog [corrThreshold(.49), ['holiday_flg','weekend'] - (7,0,0)] - 1.661
+01/02/2018 - Arima Exog [corrThreshold(.49), ['holiday_flg','weekend'] - (7,0,0) - 7-day MA] - function2 (0.775)
+01/15/2018 - Arima STEP forecast 14 step.  Error default to 7day MA  - 0.830
+01/15/2018 - Arima Exog [corrThreshold(.60), ['holiday_flg','weekday'] - (7,0,0)] - [error: 7dayma] - 0.809
+01/15/2018 - Arima Exog [corrThreshold(.60), ['holiday_flg','weekend'] - (14,0,0)] - [error: 7dayma] - 0.841
+01/15/2018 - Arima Exog [corrThreshold(.60), ['holiday_flg','weekend'] - (14,0,0)] - SMA_14_days - [error: 7dayma] - 0.840
+01/15/2018 - Arima Exog [corrThreshold(1.0), [weekday] - (14,0,0)] - visitors - [error: 7dayma] - 0.843
+01/15/2018 - Arima Exog [corrThreshold(0.49), ['holiday_flg','weekend'] - (3,0,0)] - visitors - [error: 7dayma] - 0.776
+01/15/2018 - Arima simple - 7 days [error: 7dayma] - after day fix - !! 0.586 !!
+01/16/2018 - Arima Simple - 14 days [error: 7dayma] - after day fix - 0.591
+01/16/2018 - Arima Simple - log - 14 days [error: 7dayma] - after day fix - !! 0.555 !!
+01/17/2017 - Arima EXOG - [corrThreshold(.60), ['dayofweek_num'] - (7,0,0) [error: 7dayma] - after fixes - 0.647
+01/17/2017 - Arima EXOG - [corrThreshold(.60), wkdayList] - (7,0,0) [error: 7dayma] - 0.708
+01/17/2017 - Arima EXOG - [corrThreshold(.40), ['holiday_flg','weekend']] - (7,0,0) [error: 7dayma] - 0.667
+01/17/2017 - Arima EXOG - [corrThreshold(.40), ['holiday_flg','weekend']] - (14,0,0) [error: 14dayma] - 0.692
+01/17/2017 - Arima EXOG - [corrThreshold(.70), ['weekend']] - (7,0,0) - 7dayma - [error: 7dayma] - 0.627
+01/17/2017 - Arima EXOG - [corrThreshold(.70), ['weekend']] - (7,0,0) - 14dayma - [error: 7dayma] - 0.610
+01/18/2017 - Arima EXOG - [corrThreshold(.70), ['weekend']] - (7,0,0) - 30dayma - [error: 30dayma] - 0.624
+01/18/2018 - Arima Simple - 20 days [error: 7dayma] - after day fix - 0.60
+01/18/2018 - Arima Simple - 20 days - log - [error: 7dayma] - after day fix - 0.564
+01/24/2018 - Arima Simple - 31 days - [error: 7dayma] - 0.614
